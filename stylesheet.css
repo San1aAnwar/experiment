@@ -195,12 +195,19 @@ body {
 /* This is the events section */
 
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
 .eventsname{
     text-align: center;
     font-size: 30px;
     text-shadow: 0 0 5px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 40px #6b186b, 0 0 80px #6b186b, 0 0 90px #6b186b, 0 0 100px #030036, 0 0 150px #030036;
-}
 
+}
 /* Event one poster making*/
 
 .container1 {
