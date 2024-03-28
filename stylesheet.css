@@ -199,8 +199,8 @@ body {
     text-align: center;
     font-size: 30px;
     text-shadow: 0 0 5px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 40px #6b186b, 0 0 80px #6b186b, 0 0 90px #6b186b, 0 0 100px #030036, 0 0 150px #030036;
-
 }
+
 /* Event one poster making*/
 
 .container1 {
@@ -245,7 +245,7 @@ body {
 }
 
 .image1 img {
-    max-width: 50%; 
+    max-width: 70%; 
     
 }
 
@@ -322,12 +322,14 @@ body {
     flex: 1; 
     padding: 10px;
     text-align: center;
+    item-align: center;
     margin-top: 0px;
     
 }
 
 .image2 img {
     max-width: 60%; 
+    margin-left:100px;
     
 }
 
