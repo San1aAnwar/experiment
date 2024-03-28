@@ -223,7 +223,7 @@ body {
 
 
 .text1 {
-    flex: 1; /* Take remaining space */
+    flex: 1; 
     padding: 0px;
     color:aliceblue;
     text-align: left;
@@ -243,7 +243,7 @@ body {
 
 
 .image1 {
-    flex: 1; /* Take remaining space */
+    flex: 1; 
     padding: 10px;
     text-align: center;
     margin-top: 0px;
@@ -302,7 +302,7 @@ body {
 }
 
 .text2 {
-    flex: 1; /* Take remaining space */
+    flex: 1;
     padding: 0px;
     color:aliceblue;
     text-align: left;
@@ -325,7 +325,7 @@ body {
 
 
 .image2 {
-    flex: 1; /* Take remaining space */
+    flex: 1; 
     padding: 10px;
     text-align: center;
     margin-top: 0px;
@@ -354,6 +354,33 @@ body {
 }
 
 
+ .text2 h4{
+            margin-top: 40px;
+            font-size: 30px;
+            margin-bottom: 10px;
+            color: #bc00bc;
+            text-align: center;
+        }
+
+ .contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact h3 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+   
+}
+
+
+
 .bottom {
 
     color: #fff;
@@ -380,7 +407,7 @@ body {
      background-image: url('countdownbg.png'); 
       background-size: cover;
       background-position: center;
-      padding: 60px 0; /* Adjust padding as needed */
+      padding: 60px 0; 
     color: aliceblue;
     text-align:center;
 }
@@ -407,10 +434,10 @@ bottom: 0;
   
 @media screen and (max-width: 768px) {
     nav ul li {
-        margin-left: 20px; /* Adjust spacing between navigation items */
+        margin-left: 20px; 
     }
 
-    /* Adjust logo size for smaller screens */
+    
     nav .logo {
         width: 80px;
     }
@@ -419,10 +446,10 @@ bottom: 0;
 /* Responsive Content */
 @media screen and (max-width: 768px) {
     .content {
-        padding: 0px; /* Adjust padding */
+        padding: 0px;
     }
 
-    /* Adjust text size for smaller screens */
+   
     .content h1 {
         font-size: 50px;
     }
@@ -443,8 +470,8 @@ bottom: 0;
     }
 
     .about-us-text {
-        margin-left: 0; /* Reset margin */
-        text-align: justify; /* Center align text */
+        margin-left: 0; 
+        text-align: justify; 
     }
 
     .about-us-text h2 {
@@ -460,37 +487,37 @@ bottom: 0;
 @media screen and (max-width: 768px) {
     .container1,
     .container2 {
-        flex-direction: column; /* Display items in a column for smaller screens */
-        height: auto; /* Auto height */
-        padding: 30px 20px; /* Adjust padding */
+        flex-direction: column; 
+        height: auto; 
+        padding: 30px 20px; 
     }
 
     .text1,
     .text2 {
-        margin: 20px 0; /* Adjust margin */
-        text-align: center; /* Center align text */
+        margin: 20px 0; 
+        text-align: center; 
     }
 
     .image1,
     .image2 {
-        margin: 20px 0; /* Adjust margin */
-        text-align: center; /* Center align image */
+        margin: 20px 0; 
+        text-align: center; 
     }
 
     .image1 img,
     .image2 img {
-        max-width: 80%; /* Adjust image width */
+        max-width: 80%; 
     }
 }
 
 /* Responsive Countdown Section */
 @media screen and (max-width: 768px) {
     .countdown-container {
-        padding: 50px 20px; /* Adjust padding */
+        padding: 50px 20px;
     }
 
     #countdown {
-        font-size: 60px; /* Adjust font size */
+        font-size: 60px;
         text-align: center;
         margin-bottom: 30px;
     }
