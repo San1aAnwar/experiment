@@ -286,6 +286,16 @@ nav ul li a:hover::after{
    
 }
 
+.additional-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust margin-top as needed */
+}
+
+.additional-image img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+}
 
 
 
