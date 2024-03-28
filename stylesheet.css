@@ -29,7 +29,7 @@ nav{
 }
 
 nav .logo {
-    width: 120px;
+    width: 100px;
           }
 
 nav ul li{
@@ -41,7 +41,7 @@ nav ul li a{
     position: relative;
     text-decoration: none;
     color: #fff;
-    font-size: 23px;
+    font-size: 17px;
     padding: 0 10px;
 }
 nav ul li a:after{
@@ -73,14 +73,14 @@ nav ul li a:hover::after{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 .content h1{
-    font-size: 100px;
+    font-size: 80px;
     line-height: 80px;
     font-weight: 580;
     opacity: 0;
 }
 
 .content p{
-    font-size: 25px;
+    font-size: 23px;
     max-width: 600px;
     line-height: 50px;
     opacity: 0;
@@ -89,7 +89,7 @@ nav ul li a:hover::after{
     font-weight: bold;
 }
 .content span{
-    font-size: 95px;
+    font-size: 90px;
     font-weight: 600;
 } 
 
@@ -160,7 +160,6 @@ body {
     padding: 1px;
     background-color: #592b9c00;
     height: 50vh;
-    margin-right:10px;
 }
 /*
 .about-us-section img {
@@ -174,18 +173,18 @@ body {
 .about-us-text {
     max-width: auto;
     text-align: left;
-    margin-left: 60px;
+    margin-left: 50px;
     margin-bottom: 1px;
 }
 
 .about-us-text h2 {
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 20px;
     text-align: center;
 }
 
 .about-us-text p {
-    font-size: 28px;
+    font-size: 26px;
     margin-bottom: 40px;
     text-align: justify;
 }
@@ -238,21 +237,21 @@ body {
 }
 
 .text1 p{
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 40px;
 }
 
 
 .image1 {
     flex: 1; /* Take remaining space */
-    padding: 0px;
+    padding: 10px;
     text-align: center;
     margin-top: 0px;
     
 }
 
 .image1 img {
-    max-width: 60%; 
+    max-width: 40%; 
     
 }
 
@@ -317,44 +316,25 @@ body {
 }
 
 .text2 p{
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 40px;
 }
+
+.text2 h4{
+}text-align:center;
+
 
 .image2 {
     flex: 1; /* Take remaining space */
     padding: 10px;
     text-align: center;
     margin-top: 0px;
-    }
+    
+}
 
 .image2 img {
-    max-width: 60%; 
-    }
-
-         .text2 h4{
-            margin-top: 40px;
-            font-size: 40px;
-            margin-bottom: 10px;
-            color: #bc00bc;
-            text-align: center;
-        }
-
- .contact-info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 20px;
-}
-
-.contact {
-    text-align: center;
-}
-
-.contact h3 {
-    margin-bottom: 5px;
-    margin-top: 5px;
-   
+    max-width: 50%; 
+    
 }
 
 .button {
@@ -432,7 +412,7 @@ bottom: 0;
 
     /* Adjust logo size for smaller screens */
     nav .logo {
-        width: 100px;
+        width: 80px;
     }
 }
 
@@ -448,11 +428,11 @@ bottom: 0;
     }
 
     .content p {
-        font-size: 30px;
+        font-size: 15px;
     }
 
     .content span{
-        font-size: 70px;
+        font-size: 60px;
     }
 }
 
@@ -472,7 +452,7 @@ bottom: 0;
     }
 
     .about-us-text p {
-        font-size: 20px;
+        font-size: 14px;
     }
 }
 
@@ -499,7 +479,7 @@ bottom: 0;
 
     .image1 img,
     .image2 img {
-        max-width: 90%; /* Adjust image width */
+        max-width: 80%; /* Adjust image width */
     }
 }
 
@@ -518,7 +498,5 @@ bottom: 0;
 
 @media only screen and (max-width: 768px) {
     .bottom {
-        font-size: 16px;}
+        font-size: 14px;}
     }
-
-
